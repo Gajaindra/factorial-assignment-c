@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "Factorial of 0",
+      "setup": "gcc factorial.c -o factorial",
+      "run": "./factorial",
+      "input": "0\n",
+      "expected_output": "1\n"
+    },
+    {
+      "name": "Factorial of 3",
+      "setup": "gcc factorial.c -o factorial",
+      "run": "./factorial",
+      "input": "3\n",
+      "expected_output": "6\n"
+    },
+    {
+      "name": "Factorial of 5",
+      "setup": "gcc factorial.c -o factorial",
+      "run": "./factorial",
+      "input": "5\n",
+      "expected_output": "120\n"
+    }
+  ]
+}
